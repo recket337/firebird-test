@@ -1,0 +1,15 @@
+.list {
+  margin: 0 auto;
+  max-width: 1500px;
+  padding: 0 120px 50px 120px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+@media screen and (max-width: 760px) {
+  .list {
+    padding: 0 50px 50px 50px;
+  }
+}
